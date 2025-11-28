@@ -17,3 +17,29 @@ int main (){
     }
     return 0;
 }
+
+// user input taking.. nested loops using code ..type
+#include <stdio.h>
+
+int main() {
+    int row =0;
+    int column=0;
+    char symbol='\0';
+    printf("enter no of rows= ");
+    scanf("%d",&row);
+    
+    printf("enter no of columns= ");
+    scanf("%d",&column);
+    
+    printf("enter no of symbol= ");
+    scanf(" %c",&symbol);
+    
+    for(int i=0;i<row;i++){
+        for(int i=0;i<column;i++){
+            printf("%c",symbol);
+        }
+    printf("\n");
+    } 
+
+    return 0;
+}
