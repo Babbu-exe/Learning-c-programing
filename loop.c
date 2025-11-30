@@ -42,4 +42,23 @@ int main() {
     } 
 
     return 0;
+
+
+
+//prompt with print # symbol as many orws and coloumn you want//
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the no of rows: ");
+    scanf("%d",& n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            printf("#");
+        }
+    printf("\n");
+    }
+
+    return 0;
 }
