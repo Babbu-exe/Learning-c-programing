@@ -62,3 +62,39 @@ int main() {
 
     return 0;
 }
+
+
+
+//question for ulti ladder with symbol
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the no of rows: ");
+    scanf("%d",& n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n+1-i;j++){  //logic is sampe for all reverse ladder// 
+            printf("#");
+        }
+    printf("\n");
+    }
+
+    return 0;
+}
+
+//printing ladder in intiger form //
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter the no of rows: ");
+    scanf("%d",& n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){   //logic is same for all ladder pattern //
+            printf("%d",j);
+        }
+    printf("\n");
+    }
+
+    return 0;
+}
