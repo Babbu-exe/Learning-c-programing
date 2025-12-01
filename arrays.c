@@ -86,3 +86,23 @@ int main (){
     
     return 0;
 }
+
+
+
+
+// adding 2 matries//
+
+#include <stdio.h>
+int main (){
+    int a[2][2]={2,2,2,2};
+    int b[2][2]={3,3,3,3};
+    int z[2][2]={};
+    for (int i=0;i<2;i++){
+        for (int j=0 ;j<2 ;j++){
+            z[i][j]=a[i][j]+b[i][j];
+            printf("%3d",z[i][j]);
+            }
+        printf("\n");    
+    }
+    
+}
