@@ -40,3 +40,16 @@ int main() {
     printf("");
     return 0;
 }    
+
+
+
+// 2d array is easy ...
+#include <stdio.h>
+
+int main() {
+    int a [2][2]={{1,2},
+                 {1,2}};
+        printf("%d",a[0][0]);
+    
+    return 0;
+}
