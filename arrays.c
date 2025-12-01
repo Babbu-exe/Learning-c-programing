@@ -87,7 +87,38 @@ int main (){
     return 0;
 }
 
+// user input for rows ,columns & elements as well of a matrix //
+#include <stdio.h>
 
+int main(){
+    int r,c;
+    //input for rows & colunms//
+    printf("Enter number of rows: ");
+    scanf("%d",&r);
+    printf("Enter number of colunms: ");
+    scanf("%d",&c);
+    
+    
+    //input for the elements of matrix//
+    
+    int a[r][c];
+    for(int i=0;i<r;i++){
+        for(int j=0;j<c;j++){
+            printf("Enter your element: ");
+            scanf("%d",&a[i][j]);
+        }
+        printf("\n");
+    }
+    //displaing the matrix that we have stored in the array//
+    
+    for(int i = 0; i<r; i++){
+        for(int j=0;j<c;j++){
+            printf("%d", a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 
 
 // adding 2 matries//
