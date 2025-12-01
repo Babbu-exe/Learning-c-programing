@@ -42,6 +42,17 @@ int main() {
 }    
 
 
+//using loops to print array value// 
+
+#include <stdio.h>
+int main (){
+    int a[5]={1,4,2,8,65};
+    for(int i=0;i<5;i++){
+        printf("%d",a[i]);
+    }
+    return 0; 
+}
+
 
 // 2d array is easy ...
 #include <stdio.h>
