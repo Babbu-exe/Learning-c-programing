@@ -156,6 +156,48 @@ int main(){
 }
 
 
+
+//transpose practise //
+
+#include<stdio.h>
+int main (){
+    //USER INPUT FOR ROWS AND COLUMNS//
+    int n,m;
+    printf("Enter no. of rows: ");
+    scanf("%d",&n);
+    printf("Enter no. of columns: ");
+    scanf("%d",&m);
+    //USER INPUT FOR ELEMENTS OF A MATRIX//
+    int arr[n][m];
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            printf("Enter elements for array: ");
+            scanf("%d",&arr[i][j]);
+        }
+        printf("\n");
+    }
+    //PRINTING THE MATRIX//
+    for(int i=0;i<n;i++){
+        for(int j=0;j<m;j++){
+            printf("%d",arr[i][j]);
+        }  
+        printf("\n");
+    
+    }
+    printf("\n");
+    //PRINTING THE TRANPOSE//
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            printf("%d",arr[j][i]);
+        }
+    printf("\n");
+    }
+    return 0;
+}
+
+
+
+
 // adding 2 matries//
 
 #include <stdio.h>
