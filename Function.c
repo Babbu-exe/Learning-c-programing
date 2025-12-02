@@ -19,3 +19,23 @@ int main()
     check();
     return 0;
 }
+
+
+
+//
+
+#include <stdio.h>
+
+// Function to square an integer
+int square(int n) {
+    return n * n;
+}
+
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    printf("Square: %d\n", square(num));
+    return 0;
+}
