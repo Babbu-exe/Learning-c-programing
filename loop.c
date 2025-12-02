@@ -18,6 +18,15 @@ int main (){
     return 0;
 }
 
+
+// LEARN THIS....... WILL HELP IN QUESTION//
+for (int i =1;i<=r;i++){
+        for(int j =1;j<=c;j++){
+            printf("%c",s);
+        }
+        printf("\n");
+
+
 // user input taking.. nested loops using code ..type
 #include <stdio.h>
 
@@ -43,6 +52,30 @@ int main() {
 
     return 0;
 
+
+
+//TAKING INPUTS FOR ROWS COLOUMNS AND SYMBOL AND PRINT THE PATTERN//
+
+#include <stdio.h>
+int main(){
+    int r,c;
+    //USER INPUT FOR ROWS AND COLOUMNS//
+    printf("Enter no of rows: ");
+    scanf("%d",&r);
+    printf("Enter no of columns: ");
+    scanf("%d",&c);
+    //USER INPUT FOR SYMBOL//
+    char s;
+    printf("Enter your symbol: ");
+    scanf(" %c",&s);
+    //LOOP FOR PRINTING//
+    for (int i =1;i<=r;i++){
+        for(int j =1;j<=c;j++){
+            printf("%c",s);
+        }
+        printf("\n");
+    }
+}
 
 
 //prompt with print # symbol as many orws and coloumn you want//
